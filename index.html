@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shanu Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel&family=Dongle:wght@300&family=Inter:wght@300&family=Montserrat:wght@300;400;500&family=Open+Sans:wght@400;500;700&family=Poppins:wght@200;300&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel&family=Dongle:wght@300&family=Inter:wght@300&family=Montserrat:wght@300;400;500&family=Open+Sans:wght@400;500;700&family=Poppins:wght@200&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/7720fd7e88.js" crossorigin="anonymous"></script>
+    <!-- github -->
+    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+    </script>
+
+    <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+
+</head>
+
+<body>
+    <div id="header">
+
+        <nav>
+            <img src="image/logo.jpg" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services ">Skills</a></li>
+                <li><a href="#github">Statistics</a></li>
+                <li><a href="#portfolio">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+
+
+    </div>
+    <!-- --------------------Header------------- -->
+    <div id="home">
+        <div class="container">
+            <div class="header-text">
+                <h4>Java Backend Developer</h4>
+                <h1>Hey ,<br> I'm <span>SHANU KUMRAWAT</span></h1>
+                <p>Dedicated engineering graduate determined to work with an<br> organization, to fully utilize my
+                    experience, technical and <br> interpersonal skills for overall growth of the organization and<br>
+                    team for the benefit of company </p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ....................About .................. -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/code.gif">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi Everyone, My name is Shanu Kumrawat and I am from Dewas, Madhya Pradesh(India).I have
+                        completed
+                        my B.Tech in Electrical & Electronics Engineering from IES IPS Academy Indore (Madhya
+                        Pradesh). I joined a Web Development course by Masai School a Military-type coding School. </p>
+                    <div class="tab-titles">
+
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+
+                            <li><span>Backend</span><br>Java Developer</li>
+                            <li><span>Frontend</span><br>JavaScript | HTML | CSS</li>
+                            <li><span></span><br>Data Structure & Algorithms</li>
+                            <li><span></span><br>Soft Skills</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+
+                            <li><span>10/2019 - 08/2020,</span><br>Senior Engineer (Project-Department)</li>
+                            <li><span>10/2018 - 09/2019,</span><br>GET (Graduate Engineer Trainee)</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+
+                            <li><span>2014-2018</span><br>Bachelor of Engineering (Electrical & Electronics)</li>
+                            <li><span>2013-2014</span><br>Higher Secondary (12th) from Kendriya Vidyalaya</li>
+                            <li><span>2011-2012</span><br>Secondary School (10th) from Kendriya Vidyalaya</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <!-- ................Services............ -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Skills</h1>
+            <div class="services-list">
+                <div>
+                    <iconify-icon icon="fa-brands:java" style="color: white;"></iconify-icon>
+                    <h2>Java</h2>
+                </div>
+                <div>
+                    <iconify-icon icon="simple-icons:springboot"></iconify-icon>
+                    <h2>SpringBoot</h2>
+                </div>
+                <div>
+                    <iconify-icon icon="fontisto:mysql" style="color: white;"></iconify-icon>
+                    <h2>MySQL</h2>
+                </div>
+                <div>
+                    <iconify-icon icon="simple-icons:hibernate" style="color: white;"></iconify-icon>
+                    <h2>Hibernate</h2>
+                </div>
+                <div>
+                    <iconify-icon icon="simple-icons:apachemaven" width="50" height="50"></iconify-icon>
+                    <h2>Maven</h2>
+                </div>
+                <div>
+                    <iconify-icon icon="akar-icons:javascript-fill" style="color: white;"></iconify-icon>
+                    <h2>JavaScript</h2>
+
+                </div>
+                <div>
+                    <iconify-icon icon="akar-icons:html-fill" style="color: white;"></iconify-icon>
+                    <h2>HTML</h2>
+
+                </div>
+                <div>
+                    <iconify-icon icon="akar-icons:css-fill" style="color: white;"></iconify-icon>
+                    <h2>CSS</h2>
+
+                </div>
+                <!-- <div>
+                    <iconify-icon icon="simple-icons:postman" style="color: white;"></iconify-icon>
+                    <h2>Postman</h2>
+
+                </div> -->
+                <div>
+                    <iconify-icon icon="akar-icons:github-fill" style="color: white;"></iconify-icon>
+                    <h2>Github</h2>
+
+                </div>
+                <div>
+                    <iconify-icon icon="file-icons:netlify" style="color: white;"></iconify-icon>
+                    <h2>Netlify</h2>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ..........github................ -->
+    <div id="github">
+        <div class="container">
+            <h1 class="sub-title" style="padding-bottom:15px;">Statistics</h1>
+
+            <!-- <img style = "align-content: center; height: 250px; width: 52%; padding-bottom: 20px;"
+            src="image/sta.jpeg"
+            alt="Shanu Kumrawat"/> -->
+
+            <!-- -------------------------- -->
+            <div id="circle">
+                <div id="statistics" class="row">
+                    <div class="col offset-lg-3 offset-xl-2">
+                        <div class="row mb-5" style="grid-gap: 94px; padding-bottom: 50px;">
+                            <!-- <div class="col d-flex justify-content-around flex-wrap" style="border: 2px solid #fff; display: grid;"> -->
+                            <div class="individualStat">
+                                <div>1000+</div>
+                                <div>
+                                    <h3>Hours</h3> of Java Backend Coding
+                                </div>
+                            </div>
+
+                            <div class="individualStat">
+                                <div style="border: 10px solid #7e2cde;">20+</div>
+                                <div>
+                                    <h3>Leetcode</h3>Problems
+                                </div>
+                            </div>
+
+                            <div class="individualStat">
+                                <div>54+</div>
+                                <div>
+                                    <h3>Git</h3>Commits
+                                </div>
+                            </div>
+
+                            <div class="individualStat">
+                                <div style="border: 10px solid #7e2cde;">10+</div>
+                                <div>
+                                    <h3>Projects</h3>Done
+                                </div>
+                            </div>
+
+
+                            <div class="individualStat">
+                                <div>150+</div>
+                                <div>
+                                    <h3>Hours</h3> of Soft Skills Sessions
+                                </div>
+                            </div>
+                            <!-- </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- --------------------------- -->
+            <div>
+                <img style="padding:10px 0px 20px 0px ;" align="left"
+                    src="https://github-readme-streak-stats.herokuapp.com/?user=shanukumrawat&theme=radical"
+                    alt="Shanu Kumrawat" height="200px" width="47%" />
+                <img style="padding:10px 0px 20px 0px ;" align="right"
+                    src="https://github-readme-stats.vercel.app/api?username=shanukumrawat&show_icons=true&theme=radical"
+                    height="200px" width="47%" />
+                <div>
+                    <div class="calendar">
+                        <!-- Loading stuff -->
+                        Loading the data just for you.
+                    </div>
+
+
+
+                </div>
+
+                <!-- ...........portfolio........ -->
+                <div id="portfolio">
+                    <div class="container">
+                        <h1 class="sub-title">Project</h1>
+                        <div class="work-list">
+                            <div class="work">
+                                <img src="image/Expediaimage.png">
+                                <div class="layer">
+                                    <h3>Expedia Website Clone</h3>
+                                    <p>Online hotels , cars & flights booking website</p>
+                                    <div class="displayskills">
+                                        <a><i class="fa-brands fa-js"></i></a>
+                                        <a><i class="fa-brands fa-html5"></i></a>
+                                        <a><i class="fa-brands fa-css3-alt"></i></a>
+                                    </div>
+                                    <div class="displayskills">
+                                        <a href="https://wonderful-cuchufli-3430af.netlify.app/" target="_blank"><i
+                                                class="fa-solid fa-link"></i></a>
+                                        <a href="https://github.com/aman-109/Team-Expedia" target="_blank"><i
+                                                class="fa-brands fa-github"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="work">
+                                <img src="image/yooximage.png">
+                                <div class="layer">
+                                    <h3>YOOX Website Clone</h3>
+                                    <p>Online Shopping website for fashion & lifestyle</p>
+                                    <div class="displayskills">
+                                        <a><i class="fa-brands fa-js"></i></a>
+                                        <a><i class="fa-brands fa-html5"></i></a>
+                                        <a><i class="fa-brands fa-css3-alt"></i></a>
+                                    </div>
+                                    <div class="displayskills">
+                                        <a href="https://candid-starship-25c3ab.netlify.app/" target="_blank"><i
+                                                class="fa-solid fa-link"></i></a>
+                                        <a href="https://github.com/arulxavierax/Project-U2-YOOX" target="_blank"><i
+                                                class="fa-brands fa-github"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- ..........contact................ -->
+                    <div id="contact">
+                        <div class="container">
+                            <div class="row">
+                                <div class="contact-left">
+                                    <h1 class="sub-title">Contact Me</h1>
+                                    <p><i class="fa-solid fa-paper-plane"></i>kumrawat.shanu@gmail.com</p>
+                                    <p><i class="fa-solid fa-phone"></i>+91 8602987958</p>
+                                    <div class="social-icons">
+                                        <a href="https://www.linkedin.com/in/shanu-kumrawat-700941132/"
+                                            target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                        <a href="https://github.com/shanukumrawat" target="_blank"><i
+                                                class="fa-brands fa-github"></i></a>
+                                        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                                    </div>
+                                    <a href="image/ShanuKumrawat_Resume.pdf" target="_blank" download
+                                        class="btn btn2">Download
+                                        CV</a>
+                                </div>
+                                <div class="contact-right">
+                                    <form name="submit-to-google-sheet">
+                                        <input type="text" name="Name" placeholder="Your Name" required>
+                                        <input type="email" name="Email" placeholder="Your Email" required>
+
+                                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                                        <button type="submit" class="btn btn2">Submit</button>
+                                    </form>
+                                    <span id="msg"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="copyright">
+                        <p> Made with <i class="fa-solid fa-heart"></i> by Shanu Kumrawat</p>
+                    </div>
+                </div>
+                <script>
+
+                    var tablinks = document.getElementsByClassName("tab-links");
+                    var tabcontents = document.getElementsByClassName("tab-contents")
+
+                    function opentab(tabname) {
+
+                        for (tablink of tablinks) {
+                            tablink.classList.remove("active-link");
+                        }
+                        for (tabcontent of tabcontents) {
+                            tabcontent.classList.remove("active-tab");
+                        }
+                        event.currentTarget.classList.add("active-link");
+                        document.getElementById(tabname).classList.add("active-tab");
+                    }
+                </script>
+                <script>
+                    var sidemenu = document.getElementById("sidemenu");
+
+                    function openmenu() {
+                        sidemenu.style.right = "0";
+
+                    }
+                    function closemenu() {
+                        sidemenu.style.right = "-200px";
+
+                    }
+                </script>
+                <script>
+                    const scriptURL = 'https://script.google.com/macros/s/AKfycbySONTI9AVSbfAhNSGJ2nteft9Ph3zq_go8wCerbEJ2HzUltPGXqo96N1tB0tJmyjRD/exec'
+                    const form = document.forms['submit-to-google-sheet']
+                    const msg = document.getElementById("msg")
+
+                    form.addEventListener('submit', e => {
+                        e.preventDefault()
+                        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                            .then(response => {
+                                msg.innerHTML = "Message Sent Successfully"
+                                setTimeout(function () {
+                                    msg.innerHTML = ""
+                                }, 5000)
+                                form.reset()
+                            })
+                            .catch(error => console.error('Error!', error.message))
+                    })
+                </script>
+                <script src="https://code.iconify.design/iconify-icon/1.0.0-beta.3/iconify-icon.min.js"></script>
+                <!-- github -->
+
+</body>
+
+</html>
+<script>
+    GitHubCalendar(".calendar", "shanukumrawat");
+
+    // or enable responsive functionality:
+    GitHubCalendar(".calendar", "shanukumrawat", { responsive: true });
+
+    // Use a proxy
+    GitHubCalendar(".calendar", "shanukumrawat", {
+        proxy(shanukumrawat) {
+            return fetch(`https://your-proxy.com/github?user=${shanukumrawat}`)
+        }
+    }).then(r => r.text())
+</script>
