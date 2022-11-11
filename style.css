@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+.fa-bars{
+    margin-right: 12px;
+}
+
 html {
     scroll-behavior: smooth;
 
