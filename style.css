@@ -560,6 +560,10 @@ nav .fas {
     .copyright {
         font-size: 14px;
     }
+    
+     .js-calendar-graph-svg {
+        width: 95%;
+    }
 
 }
 
@@ -717,3 +721,10 @@ img.spinner {
 
 
 /* -------------------------------- */
+
+
+.js-calendar-graph-svg {
+    width: 95%;
+    /* padding: 5px 5px 5px 5px; */
+    /* border: 1px solid #ffffff; */
+}
