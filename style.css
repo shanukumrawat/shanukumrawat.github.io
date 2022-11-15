@@ -269,7 +269,7 @@ nav ul li a:hover::after {
 /* ............portfolio........ */
 
 #portfolio {
-    padding: 80px 0 0px 0;
+    padding: 80px 0px 0px 0px;
     /* padding: 50px 0; */
 }
 
@@ -277,7 +277,7 @@ nav ul li a:hover::after {
 
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 40px;
+    grid-gap: 30px;
     margin-top: 50px;
 }
 
@@ -344,14 +344,14 @@ nav ul li a:hover::after {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0px 0px 10px 0px;
+    padding: 0px 0px 10px 0px
 }
 
 
 .displayskills a {
     margin-right: 25px;
     margin-left: 25px;
-   
+
 }
 
 li {
