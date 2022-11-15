@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-.fa-bars{
+.fa-bars {
     margin-right: 12px;
 }
 
@@ -369,6 +369,7 @@ li {
 /* .work:hover .layer {
     height: 100%;
 } */
+
 /* .................contact............. */
 
 #contact {
@@ -564,8 +565,8 @@ nav .fas {
     .copyright {
         font-size: 14px;
     }
-    
-     .js-calendar-graph-svg {
+
+    .js-calendar-graph-svg {
         width: 95%;
     }
 
@@ -725,7 +726,6 @@ img.spinner {
 
 
 /* -------------------------------- */
-
 
 .js-calendar-graph-svg {
     width: 95%;
